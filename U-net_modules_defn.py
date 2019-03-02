@@ -35,6 +35,7 @@ class down(nn.Module):
     
     def forward(self, x):
         return self.conv(x)
+
 class up(nn.Module):
     raise(NotImplementedError)
 
